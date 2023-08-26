@@ -1,0 +1,5 @@
+/data/ordered/*
+!/data/ordered/100.txt
+
+/data/unordered/*
+!/data/unordered/100.txt
