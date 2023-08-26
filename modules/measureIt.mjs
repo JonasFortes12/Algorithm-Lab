@@ -1,6 +1,6 @@
+import reportGenerator from "./reportGenerator.mjs";
 
-
-export default function measureComplexity(code, repeat = 1) {
+export default function measureComplexity(code, repeat = 1, description) {
   let fullTime = 0;
   let fullMemory = 0;
 
@@ -20,6 +20,17 @@ export default function measureComplexity(code, repeat = 1) {
   const averageTime = ((fullTime/repeat) / 60000).toFixed(4) // in minutes 
   const averageMemory = (fullMemory / repeat).toFixed(2); // in bytes
 
-  console.log(`Tempo médio: ${averageTime} minutes`);
-  console.log(`Memória média: ${averageMemory} bytes`);
+  reportGenerator(`
+  ________________${description}_________________
+
+
+  Iterações: ${repeat}
+  Tempo Total: ${(fullTime/60000).toFixed(4)} minutos
+  Memória Total: ${fullMemory.toFixed(2)} bytes
+
+  Tempo médio: ${averageTime} minutos
+  Memória média: ${averageMemory} bytes
+
+  `, description)
+
 }
