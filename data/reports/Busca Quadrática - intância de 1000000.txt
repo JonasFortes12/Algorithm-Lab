@@ -1,0 +1,12 @@
+
+  ________________Busca Quadrática - intância de 1000000_________________
+
+
+  Iterações: 5
+  Tempo Total: 17.9642 minutos
+  Memória Total: 414192.00 bytes
+
+  Tempo médio: 3.5928 minutos
+  Memória média: 82838.40 bytes
+
+  

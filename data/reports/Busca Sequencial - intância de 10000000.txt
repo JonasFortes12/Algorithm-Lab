@@ -1,0 +1,12 @@
+
+  ________________Busca Sequencial - intância de 10000000_________________
+
+
+  Iterações: 5
+  Tempo Total: 0.0010 minutos
+  Memória Total: 328360.00 bytes
+
+  Tempo médio: 0.0002 minutos
+  Memória média: 65672.00 bytes
+
+  

@@ -25,7 +25,7 @@ export default function measureComplexity(code, repeat = 1, description) {
 
 
   Iterações: ${repeat}
-  Tempo Total: ${(fullTime/60000).toFixed(4)} minutos
+  Tempo Total: ${(fullTime/60000).toFixed(5)} minutos
   Memória Total: ${fullMemory.toFixed(2)} bytes
 
   Tempo médio: ${averageTime} minutos

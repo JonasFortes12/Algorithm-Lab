@@ -1,0 +1,12 @@
+
+  ________________Busca Quadrática - intância de 5000000 ordenada_________________
+
+
+  Iterações: 5
+  Tempo Total: 438.3295 minutos
+  Memória Total: 456352.00 bytes
+
+  Tempo médio: 87.6659 minutos
+  Memória média: 91270.40 bytes
+
+  
