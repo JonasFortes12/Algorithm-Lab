@@ -7,7 +7,7 @@ import {sequentialSearch_v1, sequentialSearch_v2} from "./src/sequentialSearch.m
 import quadraticSearch from "./src/quadraticSearch.mjs";
 import ternarySearch from "./src/ternarySearch.mjs";
 
-const sizeInstance = 10000
+const sizeInstance = 100
 const note = `Busca Cúbica - intância de ${sizeInstance} desordenada (8718114)`
 
 loadData(`./data/unordered/${sizeInstance}.txt`).then(data =>{
