@@ -1,5 +1,5 @@
 
-  ________________Busca Quadrática - intância de 1000000_________________
+  ________________Busca Quadrática - intância de 1000000 ordenada_________________
 
 
   Iterações: 5

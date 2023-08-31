@@ -1,5 +1,5 @@
 
-  ________________Busca Sequencial - intância de 10000000_________________
+  ________________Busca Sequencial - intância de 10000000 ordenada_________________
 
 
   Iterações: 5
