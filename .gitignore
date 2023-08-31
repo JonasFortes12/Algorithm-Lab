@@ -1,5 +1,5 @@
-/data/ordered/*
-!/data/ordered/100.txt
+/data/data-for-search/ordered/*
+!/data/data-for-search/ordered/100.txt
 
-/data/unordered/*
-!/data/unordered/100.txt
+/data/data-for-search/unordered/*
+!/data/data-for-search/unordered/100.txt

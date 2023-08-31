@@ -7,18 +7,19 @@ import {sequentialSearch_v1, sequentialSearch_v2} from "./src/sequentialSearch.m
 import quadraticSearch from "./src/quadraticSearch.mjs";
 import ternarySearch from "./src/ternarySearch.mjs";
 
-const sizeInstance = 100
-const note = `Busca Cúbica - intância de ${sizeInstance} desordenada (8718114)`
+const sizeInstance = 5000
+const targetValue = 4834
+const note = `Busca Cúbica(ordenada) intância ${sizeInstance} alvo ${targetValue}`
 
-loadData(`./data/unordered/${sizeInstance}.txt`).then(data =>{
+loadData(`./data/data-for-search/ordered/${sizeInstance}.txt`).then(data =>{
 
     function algorithm(){
 
         // console.log("\n Busca Quadrática____________")
         // console.log(quadraticSearch(1471442, data))
-
+ 
         console.log("\n Busca Cubica____________")
-        console.log(cubicSearch(8718114, data))
+        console.log(cubicSearch(targetValue, data))
  
         // console.log("\n Busca Sequencial____________")
         // console.log(sequentialSearch_v1(8815815, data))
@@ -31,7 +32,7 @@ loadData(`./data/unordered/${sizeInstance}.txt`).then(data =>{
 
     }
 
-    measureComplexity(algorithm, 2, `${note}`)
+    measureComplexity(algorithm, 1, `${note}`)
 
 });
 

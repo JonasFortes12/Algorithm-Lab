@@ -1,0 +1,12 @@
+
+  ________________Busca Cúbica(ordenada) intância 10000 alvo 4834_________________
+
+
+  Iterações: 2
+  Tempo Total: 13.71771 minutos
+  Memória Total: 63000.00 bytes
+
+  Tempo médio: 6.8589 minutos
+  Memória média: 31500.00 bytes
+
+  
