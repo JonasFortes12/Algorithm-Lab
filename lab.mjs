@@ -9,7 +9,7 @@ import quadraticSearch from "./src/quadraticSearch.mjs";
 import ternarySearch from "./src/ternarySearch.mjs";
 
 const sizeInstance = 100000000
-const targetValue = 2
+const targetValue = 99999126
 const iterations = 10
 const note = `Busca_Ternária_intância_${sizeInstance}_alvo_${targetValue}`
 
@@ -38,11 +38,10 @@ const note = `Busca_Ternária_intância_${sizeInstance}_alvo_${targetValue}`
 
 // });
 
+const data = generateOrderedNumbers(sizeInstance)
+console.log(data)
+
 function algorithm(){
-
-    const data = generateOrderedNumbers(100000000)
-    console.log(data)
-
     // console.log("\n Busca Quadrática____________")
     // console.log(quadraticSearch(targetValue, data))
 
@@ -55,8 +54,8 @@ function algorithm(){
     // console.log("\n Busca Binaria____________")
     // console.log(binarySearch(targetValue, data, 0, data.length))
 
-    // console.log("\n Busca Ternaria____________")
-    // console.log(ternarySearch(targetValue, data))
+    console.log("\n Busca Ternaria____________")
+    console.log(ternarySearch(targetValue, data))
 
 }
 
