@@ -1,0 +1,12 @@
+
+  ________________Busca_Binária_intância_1000000_alvo_2_________________
+
+
+  Iterações: 10
+  Tempo Total: 7.15670 milisegundos | 0.00012 minutos 
+  Memória Total: 630632.00 bytes
+
+  Tempo médio: 0.71567 milisegundos | 0.00001 minutos
+  Memória média: 63063.20 bytes
+
+  

@@ -1,0 +1,12 @@
+
+  ________________Busca_Ternária_intância_5000000_alvo_987315_________________
+
+
+  Iterações: 10
+  Tempo Total: 7.98460 milisegundos | 0.00013 minutos 
+  Memória Total: 344608.00 bytes
+
+  Tempo médio: 0.79846 milisegundos | 0.00001 minutos
+  Memória média: 34460.80 bytes
+
+  

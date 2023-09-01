@@ -1,0 +1,12 @@
+
+  ________________Busca_Sequencial_v2_intância_5000000(ordenada)_alvo_2568879_________________
+
+
+  Iterações: 10
+  Tempo Total: 62.10180 milisegundos | 0.00104 minutos 
+  Memória Total: 447072.00 bytes
+
+  Tempo médio: 6.21018 milisegundos | 0.00010 minutos
+  Memória média: 44707.20 bytes
+
+  

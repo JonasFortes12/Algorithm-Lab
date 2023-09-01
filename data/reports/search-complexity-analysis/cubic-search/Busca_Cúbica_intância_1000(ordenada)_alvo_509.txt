@@ -1,0 +1,12 @@
+
+  ________________Busca_Cúbica_intância_1000(ordenada)_alvo_509_________________
+
+
+  Iterações: 10
+  Tempo Total: 3783.50720 milisegundos | 0.06306 minutos 
+  Memória Total: 84496.00 bytes
+
+  Tempo médio: 378.35072 milisegundos | 0.00631 minutos
+  Memória média: 8449.60 bytes
+
+  

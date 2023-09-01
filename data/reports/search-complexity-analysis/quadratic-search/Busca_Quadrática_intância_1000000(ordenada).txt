@@ -1,6 +1,5 @@
 
-  ________________Busca Quadrática - intância de 1000000 ordenada_________________
-
+  ________________Busca_Quadrática_intância_1000000(ordenada)_________________
 
   Iterações: 5
   Tempo Total: 17.9642 minutos

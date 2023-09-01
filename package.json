@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Jonas Fortes",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "md-to-pdf": "^5.2.4"
+  }
 }

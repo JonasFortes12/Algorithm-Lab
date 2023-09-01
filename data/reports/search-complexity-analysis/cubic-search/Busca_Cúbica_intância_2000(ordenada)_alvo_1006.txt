@@ -1,0 +1,12 @@
+
+  ________________Busca_Cúbica_intância_2000(ordenada)_alvo_1006_________________
+
+
+  Iterações: 10
+  Tempo Total: 39435.37320 milisegundos | 0.65726 minutos 
+  Memória Total: 84656.00 bytes
+
+  Tempo médio: 3943.53732 milisegundos | 0.06573 minutos
+  Memória média: 8465.60 bytes
+
+  

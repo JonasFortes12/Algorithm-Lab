@@ -1,6 +1,5 @@
 
-  ________________Busca Quadrática - intância de 5000000 ordenada_________________
-
+  ________________Busca_Quadrática_intância_5000000(ordenada)_________________
 
   Iterações: 5
   Tempo Total: 438.3295 minutos

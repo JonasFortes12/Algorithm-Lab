@@ -1,0 +1,12 @@
+
+  ________________Busca_Quadrática_intância_1000(ordenada)_alvo_508_________________
+
+
+  Iterações: 10
+  Tempo Total: 27.42360 milisegundos | 0.00046 minutos 
+  Memória Total: 94856.00 bytes
+
+  Tempo médio: 2.74236 milisegundos | 0.00005 minutos
+  Memória média: 9485.60 bytes
+
+  

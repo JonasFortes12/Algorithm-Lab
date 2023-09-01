@@ -1,0 +1,11 @@
+
+  ________________Busca_Quadrática_intância_100(ordenada)_alvo_47_________________
+
+  Iterações: 10
+  Tempo Total: 12.59750 milisegundos | 0.00021 minutos 
+  Memória Total: 94856.00 bytes
+
+  Tempo médio: 1.25975 milisegundos | 0.00002 minutos
+  Memória média: 9485.60 bytes
+
+  

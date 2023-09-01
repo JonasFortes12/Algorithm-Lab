@@ -1,5 +1,4 @@
-
-  ________________Busca Cúbica(ordenada) intância 10000 alvo 4834_________________
+ ________________Busca_Cúbica_intância_10000(ordenada)_alvo_4834_________________
 
 
   Iterações: 2

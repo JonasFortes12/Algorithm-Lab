@@ -7,32 +7,33 @@ import {sequentialSearch_v1, sequentialSearch_v2} from "./src/sequentialSearch.m
 import quadraticSearch from "./src/quadraticSearch.mjs";
 import ternarySearch from "./src/ternarySearch.mjs";
 
-const sizeInstance = 5000
-const targetValue = 4834
-const note = `Busca Cúbica(ordenada) intância ${sizeInstance} alvo ${targetValue}`
+const sizeInstance = 100000000
+const targetValue = 2
+const iterations = 10
+const note = `Busca_Ternária_intância_${sizeInstance}_alvo_${targetValue}`
 
 loadData(`./data/data-for-search/ordered/${sizeInstance}.txt`).then(data =>{
 
     function algorithm(){
 
         // console.log("\n Busca Quadrática____________")
-        // console.log(quadraticSearch(1471442, data))
+        // console.log(quadraticSearch(targetValue, data))
  
-        console.log("\n Busca Cubica____________")
-        console.log(cubicSearch(targetValue, data))
+        // console.log("\n Busca Cubica____________")
+        // console.log(cubicSearch(targetValue, data))
  
         // console.log("\n Busca Sequencial____________")
-        // console.log(sequentialSearch_v1(8815815, data))
+        // console.log(sequentialSearch_v2(targetValue, data))
         
         // console.log("\n Busca Binaria____________")
-        // console.log(binarySearch(48, data, 0, data.length))
+        // console.log(binarySearch(targetValue, data, 0, data.length))
 
-        // console.log("\n Busca Ternaria____________")
-        // console.log(ternarySearch(48, data))
+        console.log("\n Busca Ternaria____________")
+        console.log(ternarySearch(targetValue, data))
 
     }
 
-    measureComplexity(algorithm, 1, `${note}`)
+    measureComplexity(algorithm, iterations, `${note}`)
 
 });
 

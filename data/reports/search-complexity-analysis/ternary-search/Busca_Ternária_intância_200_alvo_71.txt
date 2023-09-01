@@ -1,0 +1,12 @@
+
+  ________________Busca_Ternária_intância_200_alvo_71_________________
+
+
+  Iterações: 10
+  Tempo Total: 7.07870 milisegundos | 0.00012 minutos 
+  Memória Total: 86016.00 bytes
+
+  Tempo médio: 0.70787 milisegundos | 0.00001 minutos
+  Memória média: 8601.60 bytes
+
+  
