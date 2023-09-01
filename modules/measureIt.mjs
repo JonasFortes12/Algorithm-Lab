@@ -17,7 +17,7 @@ export default function measureComplexity(code, repeat = 1, description) {
     fullMemory += endMemory - startMemory;
   }
 
-  const averageTime = ((fullTime/repeat) / 60000).toFixed(4) // in minutes 
+  const averageTime = (fullTime/repeat).toFixed(5) // in miliseconds 
   const averageMemory = (fullMemory / repeat).toFixed(2); // in bytes
 
   reportGenerator(`
@@ -25,10 +25,10 @@ export default function measureComplexity(code, repeat = 1, description) {
 
 
   Iterações: ${repeat}
-  Tempo Total: ${(fullTime/60000).toFixed(5)} minutos
+  Tempo Total: ${fullTime.toFixed(5)} milisegundos | ${(fullTime/60000).toFixed(5)} minutos 
   Memória Total: ${fullMemory.toFixed(2)} bytes
 
-  Tempo médio: ${averageTime} minutos
+  Tempo médio: ${averageTime} milisegundos | ${(averageTime/60000).toFixed(5)} minutos
   Memória média: ${averageMemory} bytes
 
   `, description)
