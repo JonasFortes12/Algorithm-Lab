@@ -5,14 +5,16 @@ export default function measureComplexity(code, repeat = 1, description) {
   let allMemory = []
 
   for (let i = 1; i <= repeat; i++) {
+    
     const startTime = performance.now();
-
+    
     code();
   
     const endTime = performance.now();
+
+    allMemory.push(process.memoryUsage().heapTotal);
     
     fullTime += endTime - startTime
-    allMemory.push(process.memoryUsage().heapTotal)
   }
 
   const averageTime = (fullTime/repeat).toFixed(5) // in miliseconds 
@@ -25,7 +27,13 @@ export default function measureComplexity(code, repeat = 1, description) {
   Iterações: ${repeat}
   Tempo Total: ${fullTime.toFixed(5)} milisegundos | ${(fullTime/60000).toFixed(5)} minutos 
   Tempo médio: ${averageTime} milisegundos | ${(averageTime/60000).toFixed(5)} minutos
+  
   Memória Pico: ${memoryPeak} bytes
+
+  Alocação de memória:
+  ${allMemory.map((value, index) => {
+    return `${index} ------> ${value}\n\t`;
+  })}
 
   `, description)
 
