@@ -1,23 +1,26 @@
 import measureComplexity from "./modules/measureIt.mjs";
-// import loadData from "./modules/loadData.mjs";
-import { generateOrderedNumbers, generateUnorderedNumbers } from "./modules/dataGenerator.mjs"; 
+import {
+  generateOrderedNumbers,
+  generateUnorderedNumbers,
+} from "./modules/dataGenerator.mjs";
 import { maxVal1, maxVal2 } from "./src/highestValueSearch.mjs";
 
-
 // const targetValue = 100
-const sizeInstance = 100000000
-const iterations = 20
-const note = `maxVal1_${sizeInstance}`
+const sizeInstances = [
+  100, 200, 1000, 2000, 5000, 10000, 50000, 100000, 500000, 1000000, 5000000,
+  10000000, 100000000,
+];
+const iterations = 100;
 
-// loadData(`./data/data-for-search/ordered/${sizeInstance}.txt`).then(data =>{
-// })
+sizeInstances.forEach((instance) => {
 
-function algorithm(){
-    console.log(maxVal1(data, data.length))
-    // console.log(maxVal2(data, 0 ,data.length-1))
-}
+  const note = `maxVal2_${instance}`;
+  let data = generateUnorderedNumbers(instance);
 
+  function algorithm() {
+    // console.log(maxVal1(data, data.length));
+    console.log(maxVal2(data, 0 ,data.length-1))
+  }
 
-let data = generateUnorderedNumbers(sizeInstance)
-
-measureComplexity(algorithm, iterations, `${note}`)
+  measureComplexity(algorithm, iterations, `${note}`);
+});
